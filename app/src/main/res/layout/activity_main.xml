@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số nguyên dương n"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonEven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số chẵn" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số lẻ" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSquare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số chính phương" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show" />
+
+    <TextView
+        android:id="@+id/textViewError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000" />
+
+    <ListView
+        android:id="@+id/listViewNumbers"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
