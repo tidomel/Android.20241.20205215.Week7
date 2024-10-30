@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Khởi tạo các view
         editTextNumber = findViewById(R.id.editTextNumber)
         radioGroupNumbers = findViewById(R.id.radioGroupNumbers)
         radioButtonEven = findViewById(R.id.radioButtonEven)
